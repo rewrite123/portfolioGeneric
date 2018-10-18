@@ -157,12 +157,34 @@ body{
 }
 .imageGalleryProjectContainer{
 	background-color: rgb(91, 91, 91);
-	width: 10%;
-	height: 10%;
+	width: 35%;
+	height: 35%;
 	margin: 4px;
+	text-align: center;
+}
+.imageGalleryImage{
+	background-color: rgb(91, 91, 91);
+	width: 95%;
+	height: 95%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 4px;
 	text-align: center;
-	display: flex;
+}
+.imageGalleryBanner{
+	background-color: rgb(91, 91, 91);
+	width: 100%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	text-align: center;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	bottom: 60px;
 }
 .footer{
 	margin-left: 16%;
