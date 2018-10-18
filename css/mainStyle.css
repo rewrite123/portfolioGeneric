@@ -3,7 +3,7 @@ body{
 }
 .mainContainer{
 	background-color: rgb(221, 221, 221);
-	margin-top: 3%;
+	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -13,8 +13,8 @@ body{
 	background-color: rgb(221, 221, 221);
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	display: flex;
 	width: 90%;
 }
@@ -51,6 +51,8 @@ body{
 	flex-direction: column;
 }
 .nameplate{
+	padding-top: 2%;
+	padding-bottom: 0%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 28px;
@@ -147,8 +149,31 @@ body{
 	flex-direction: column;
 }
 .imageGalleryContainer{
-	
+	margin-top: 1%;
+	margin-bottom: 1%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.imageGalleryProjectContainer{
+	background-color: rgb(91, 91, 91);
+	width: 10%;
+	height: 10%;
+	margin: 4px;
+	padding: 4px;
+	text-align: center;
+	display: flex;
 }
 .footer{
+	margin-left: 16%;
+	margin-right: 16%;
+	margin-top: 25px;
+	margin-bottom: 5%;
+	color: rgb(221, 221, 221);
+	text-align: center;
+	border-top: 2px solid black;
+	border-spacing: 15px;
+	padding-top: 22px;
+	padding-bottom: 22px;
 	
 }
