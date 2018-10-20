@@ -225,7 +225,24 @@ body{
 /* This is where all of the important queries go */
 
 @media screen and (max-width: 850px){
+	.nameplate{
+		font-size: 20px;
+	}
+	.imageGalleryProjectName{
+		font-size: 16px;
+	}
+	.imageGalleryProjectInfo{
+		font-size: 16px;
+	}
 	.imageGalleryTextContainer{
-		display: none;
+		overflow: hidden;
+		height: 10px;
+	}
+	.imageGalleryTextContainer:hover{
+		-webkit-transition: height 2s; /* Safari */
+		transition: height 2s;
+		overflow: visible;
+		height: auto;
+		
 	}
 }
