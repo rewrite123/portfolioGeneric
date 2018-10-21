@@ -20,3 +20,25 @@ function showElement(x){
 		contact.style.display = "block";
 	}
 }
+
+/* This makes it so that when you are on smaller displays the navbar moves you to the content you requested. */
+window.onresize = function(event) {
+	if(window.innerWidth < 850){
+		document.getElementById("aboutSelector").href = "#about";
+		document.getElementById("portfolioSelector").href = "#portfolio";
+		document.getElementById("contactSelector").href = "#contact";
+	}else{
+		document.getElementById("aboutSelector").href= "#";
+		document.getElementById("portfolioSelector").href = "#";
+		document.getElementById("contactSelector").href = "#";
+	}
+};
+if(window.innerWidth < 850){
+	document.getElementById("aboutSelector").href = "#about";
+	document.getElementById("portfolioSelector").href = "#portfolio";
+	document.getElementById("contactSelector").href = "#contact";
+}else{
+	document.getElementById("aboutSelector").href= "#";
+	document.getElementById("portfolioSelector").href = "#";
+	document.getElementById("contactSelector").href = "#";
+}

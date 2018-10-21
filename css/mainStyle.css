@@ -225,24 +225,78 @@ body{
 /* This is where all of the important queries go */
 
 @media screen and (max-width: 850px){
+	.mainContainer{
+		background-color: rgb(221, 221, 221);
+		margin-top: 64px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		width: 90%;
+	}
 	.nameplate{
 		font-size: 20px;
+	}
+	.splitter{
+		display: block;
+	}
+	.leftSide{
+		background-color: rgb(201, 201, 201);
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.navigation{
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		top: 0px;
+		left: 0%;
+	}
+	.navigation a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	.rightSide{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.contentArticle{
+		font-size: 16px;
+	}
+	.imageGalleryProjectContainer{
+		width: 85%;
+		height: 85%;
 	}
 	.imageGalleryProjectName{
 		font-size: 16px;
 	}
 	.imageGalleryProjectInfo{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.imageGalleryTextContainer{
+		transition-property: height;
+		transition-duration: 2s;
 		overflow: hidden;
-		height: 10px;
+		height: 20px;
 	}
 	.imageGalleryTextContainer:hover{
-		-webkit-transition: height 2s; /* Safari */
-		transition: height 2s;
-		overflow: visible;
+		transition-property: height;
+		transition-duration: 2s;
+		//overflow: visible;
 		height: auto;
 		
+	}
+	textarea {
+		height: 4em;
+		width: 15em;
 	}
 }
